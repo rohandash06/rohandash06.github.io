@@ -1,0 +1,544 @@
+body {
+  font-family: "Source Sans Pro";
+  color: black;
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 2em 1em;
+  max-width: 55em;
+  margin: auto;
+}
+@media screen and (min-width: 30em) {
+  body {
+    padding: 2em;
+  }
+}
+@media screen and (min-width: 40em) {
+  body {
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 50em) {
+  body {
+    font-size: 18px;
+  }
+}
+
+.gutters {
+  padding: 10px;
+  border: 20px;
+  border-top: 20px;
+}
+
+.row {
+  margin: 0 -.5em;
+}
+
+.column {
+  float: left;
+}
+
+@media screen and (min-width: 35em) {
+  .half {
+    width: 50%;
+  }
+
+  .third, .thirds {
+    width: 50%;
+  }
+
+  .fourth, .fourths {
+    width: 50%;
+  }
+
+  .fifth, .fifths {
+    width: 50%;
+  }
+
+  .sixth, .sixths {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 40em) {
+  .one.third, .one.thirds {
+    width: 33.33333%;
+  }
+
+  .two.third, .two.thirds {
+    width: 66.66667%;
+  }
+
+  .one.fourth, .one.fourths {
+    width: 25%;
+  }
+
+  .three.fourth, .three.fourths {
+    width: 75%;
+  }
+
+  .fifth, .fifths {
+    width: 33.33333%;
+  }
+
+  .three.fifths, .four.fifths {
+    width: 66.66667%;
+  }
+
+  .sixth, .sixths {
+    width: 33.33333%;
+  }
+
+  .five.sixths {
+    width: 66.66667%;
+  }
+}
+@media screen and (min-width: 60em) {
+  .one.fifth, .one.fifths {
+    width: 20%;
+  }
+
+  .two.fifth, .two.fifths {
+    width: 40%;
+  }
+
+  .three.fifth, .three.fifths {
+    width: 60%;
+  }
+
+  .four.fifth, .four.fifths {
+    width: 80%;
+  }
+
+  .sixth, .sixths {
+    width: 16.66667%;
+  }
+}
+a {
+  color: #F58E84;
+}
+
+img {
+  max-width: 100%;
+}
+
+em, cite, i {
+  font-style: italic;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Abril Fatface", serif;
+}
+
+h1 {
+  color: #496071;
+  font-size: 1.75em;
+  line-height: 1.2;
+  font: "Abril Fatface", serif;
+}
+
+h2 {
+  color: #496071;
+  font-size: 1.25em;
+}
+
+h3 {
+  color: #496071;
+  font-size: 1.2em;
+}
+
+p, ul, ol {
+  margin: 1.5em 0;
+}
+
+main > header {
+  margin: .75em 0 1.5em;
+  padding: 1.5em 0;
+  text-align: center;
+}
+main > header h1 {
+  font-family: "Abril Fatface", serif;
+  color: #496071;
+}
+main > header h2 {
+  color: #B0B3B6;
+}
+main > header h2 i {
+  font-family: "Source Sans Pro";
+}
+@media screen and (min-width: 40em) {
+  main > header {
+    font-size: 1.2em;
+  }
+}
+
+article h2 {
+  color: #496071;
+  margin: 1em 0 -1em;
+  font-weight: bold;
+}
+@media screen and (min-width: 40em) {
+  article p, article ul, article ol {
+    margin-right: 30%;
+    color: rgba(0, 0, 0, 0.7);
+    font: "Abril Fatface", serif;
+    font-size: 14pt;
+  }
+}
+article ul, article ol {
+  margin-left: 1.5em;
+}
+article ul li {
+  font-family: "Source Sans Pro";
+  list-style: square;
+}
+article dl {
+  margin: 1.5em 0;
+}
+article dl dt {
+  font-family: "Abril Fatface", serif;
+  color: #496071;
+  font-weight: bold;
+  font-size: 18pt;
+}
+article dl dd {
+  color: rgba(0, 0, 0, 0.7);
+  font: "Abril Fatface", serif;
+  font-size: 14pt;
+  margin-bottom: .75em;
+}
+
+.page-header {
+  border-bottom: 1px dotted #F58E84;
+  text-align: center;
+}
+.page-header .logo h1 {
+  font-family: "Abril Fatface", serif;
+  line-height: 1;
+  font-weight: regular;
+}
+.page-header .logo h2 {
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  word-spacing: .25em;
+  text-align: center;
+}
+.page-header .main-nav {
+  font-family: "Abril Fatface", serif;
+  font-size: 1.25em;
+  margin: .5em 0;
+  word-spacing: .5em;
+}
+.page-header .main-nav ul {
+  margin: 0;
+}
+.page-header .main-nav li {
+  font-family: "Source Sans Pro";
+  display: inline-block;
+}
+.page-header .main-nav a {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  margin: .25em 0;
+  line-height: 1.1;
+}
+.page-header .main-nav .active a {
+  color: inherit;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width: 40em) {
+  .page-header {
+    text-align: left;
+    padding-bottom: 1em;
+    border-bottom-width: 2px;
+  }
+  .page-header .logo {
+    float: left;
+  }
+  .page-header .main-nav {
+    float: right;
+  }
+}
+
+aside, .aside {
+  font-family: "Abril Fatface", serif;
+  font-size: .9em;
+  margin-bottom: 1.5em;
+  background: #BDE5F1;
+}
+@media screen and (min-width: 40em) {
+  aside, .aside {
+    float: right;
+    width: 27%;
+  }
+}
+aside header, .aside header {
+  background: #7ecce4;
+  font-weight: bold;
+}
+aside ul, .aside ul {
+  margin: 0 .75em 0 1.5em;
+}
+
+.module {
+  padding: .5em;
+}
+.module header {
+  padding: .25em .5em .5em;
+  margin: -.5em -.5em .5em;
+}
+
+.two {
+  padding: .5em;
+}
+.two header {
+  padding: .25em .5em .5em;
+  margin: -.5em -.5em .5em;
+}
+
+figure {
+  clear: both;
+}
+@media screen and (min-width: 40em) {
+  figure img {
+    float: left;
+    width: 71.5%;
+    margin-bottom: 1.5em;
+  }
+}
+figure figcaption {
+  font-family: "Source Sans Pro";
+  font-size: .9em;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.3;
+}
+@media screen and (min-width: 40em) {
+  figure figcaption {
+    float: right;
+    width: 27%;
+  }
+}
+figure.full img {
+  float: none;
+  width: auto;
+  margin: 0;
+}
+figure.full figcaption {
+  margin-top: .75em;
+}
+.column figure {
+  margin: .5em;
+}
+.column figure img {
+  float: none;
+  width: auto;
+  margin: 0;
+}
+.column figure figcaption {
+  float: none;
+  width: auto;
+  margin: 0;
+}
+
+.group:before, .row:before,
+.group:after,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.group:after, .row:after {
+  clear: both;
+}
+
+.patelco {
+  text-align: center;
+  border-bottom: 2pt dotted #F58E84;
+}
+.patelco img {
+  padding-bottom: 5px;
+  width: 25%;
+  height: auto;
+}
+
+.simple {
+  text-align: center;
+  padding: 10px;
+  font-size: 14pt;
+  background: #B0B3B6;
+}
+
+.simple img {
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.simple figcaption {
+  padding: 10px;
+  border-top: 1px solid black;
+  margin-bottom: -10px;
+}
+
+.under {
+  padding-top: 20px;
+}
+.under figure {
+  margin-top: 30px;
+}
+
+.wireframe {
+  padding-top: 20px;
+}
+.wireframe figure {
+  margin-top: 30px;
+}
+
+.con {
+  text-align: center;
+  padding: 5pt;
+  border: 1pt solid #B0B3B6;
+  background: #B0B3B6;
+  font-type: "Abril Fatface", serif;
+}
+
+.pictures {
+  text-align: center;
+  margin-bottom: 20px;
+  font: 8pt;
+}
+
+.secondheader {
+  font-size: 20pt;
+  color: rgba(96, 101, 119, 0.8);
+}
+
+.aside1 {
+  font-family: "Abril Fatface", serif;
+  font-size: .9em;
+  margin-bottom: 1.5em;
+  background: #f9b9b3;
+}
+@media screen and (min-width: 40em) {
+  .aside1 {
+    float: right;
+    width: 27%;
+  }
+}
+.aside1 header {
+  background: #F58E84;
+  font-weight: bold;
+}
+.aside1 ul {
+  margin: 0 .75em 0 1.5em;
+}
+.aside1 li {
+  font-famil: "Source Sans Pro";
+}
+
+h4 {
+  color: #606577;
+  font-size: 14pt;
+}
+
+li {
+  color: #606577;
+  font-size: 12pt;
+}
+
+.spaceme {
+  margin: 20px;
+}
+.spaceme p {
+  color: rgba(255, 255, 255, 0);
+}
+
+.spaceme1 {
+  margin: 20px;
+  border-top: 2pt dotted;
+  border-color: #F58E84;
+  margin: 20px;
+}
+.spaceme1 p {
+  color: rgba(255, 255, 255, 0);
+}
+
+.quotes {
+  max-width: 100%;
+  font-family: "Abril Fatface", serif;
+  float: right;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.quotes p {
+  margin-right: 0;
+}
+
+.button {
+  text-align: center;
+  margin: 0;
+  margin-top: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 10px;
+  background: #BDE5F1;
+  font: 'Abril+Fatface';
+}
+.button a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font: 'Abril Fatface';
+}
+
+.con2 img {
+  border-radius: 200px;
+  border: 1pt solid black;
+}
+
+.final {
+  border: 5pt solid #B0B3B6;
+  padding-bottom: 10px;
+  background: #B0B3B6;
+  text-align: center;
+}
+.final figcaption {
+  text-align: center;
+  font-size: 12pt;
+}
+.final img {
+  border: none;
+  border-radius: 0px;
+}
+
+.wirefr {
+  text-align: center;
+  padding: 10px;
+  font-size: 12pt;
+  background: #B0B3B6;
+  background-size: cover;
+  border: none;
+  border-radius: 0px;
+}
+.wirefr img {
+  background: rgba(176, 179, 182, 0.3);
+  border: none;
+  border-radius: 0px;
+  padding-bottom: 10px;
+}
+.wirefr figcaption {
+  padding-bottom: 10px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  background: rgba(176, 179, 182, 0.1);
+  font-size: 12pt;
+}
+
+.li {
+  font-family: "Source Sans Pro";
+}
+
+.active {
+  font-size: 18pt;
+}
