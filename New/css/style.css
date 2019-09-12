@@ -1,0 +1,448 @@
+/* GLOBAL STYLES */
+body {
+  overflow-x:hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.theme-color {
+  background-color: #546de5;
+}
+
+.link-color {
+  color: #546de5 !important;
+}
+
+blockquote {
+  border-left:5px solid #546de5;
+}
+
+a {
+  color:#546de5;
+  cursor: pointer !important;
+  pointer-events: auto;
+}
+
+.about-img-shadow {
+  box-shadow: 0px 1px 30px rgba(121, 107, 93, 0.35);
+  border-radius: 8px;
+  padding: 0px !important;
+}
+
+.card-hover:hover {
+  -webkit-box-shadow: 1px 1px 40px -8px rgba(186,186,186,1);
+  -moz-box-shadow: 1px 1px 40px -8px rgba(186,186,186,1);
+  box-shadow: 1px 1px 40px -8px rgba(186,186,186,1);
+  /*box-shadow: 0 14px 14px 0 rgba(0,0,0,.05), 0 10px 5px 0 rgba(0,0,0,.22);*/
+  cursor: pointer !important;
+  pointer-events: auto;
+
+}
+
+.card-hover {
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.8s;
+    cursor: pointer !important;
+    pointer-events: auto;
+}
+
+#logo-container {
+	top:18%;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+nav {
+	background-color: #ffffff;
+	color: #000000;
+	box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+}
+
+nav ul li a {
+	color: #000;
+}
+
+.spacer {
+  height:100px;
+  width: 100%;
+}
+
+.small-spacer {
+  height:60px;
+  width: 100%;
+}
+
+.x-small-spacer {
+  height:30px;
+  width: 100%;
+}
+
+.section-heading {
+  text-align: center;
+}
+
+h5  {
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.underline {
+  border: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #546de5;
+  width: 40px;
+}
+
+.social-icons li {
+  display: inline;
+  padding: 5px;
+}
+
+.social-icons li a {
+  color: #fff;
+}
+
+.gray-filter {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  -webkit-transition: 0.2s -webkit-filter linear;
+  -moz-transition: 0.2s -moz-filter linear;
+  -moz-transition: 0.2s filter linear;
+  -ms-transition: 0.2s -ms-filter linear;
+  -o-transition: 0.2s -o-filter linear;
+  transition: 0.2s filter linear;
+}
+
+.gray-filter:hover {
+  -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  filter: none;
+}
+
+.sm-text {
+  font-size: 14px;
+}
+
+.large-text {
+  font-size: 16px;
+}
+
+.x-large-text {
+  font-size: 18px;
+}
+
+.xx-large-text {
+  font-size: 20px;
+}
+
+.xxx-large-text {
+  font-size: 30px;
+}
+
+.tabs .tab a {
+  color:#546de5;
+}
+
+.tabs .tab a:hover {
+  color:#6173F4;
+}
+
+.tabs .indicator {
+  background-color:#546de5;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width : 768px) {
+    h1 {
+      font-size: 24px;
+      font-weight: 500;
+    }
+    
+    h3 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    h4 {
+      font-size: 19px;
+      font-weight: 500;
+    }
+
+    h5 {
+      font-size: 16px;
+    }
+
+    .gray-filter {
+      -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(0%);
+    }
+
+    .bg {
+      height: 45vh!important;
+    }
+
+    .hide-on-small-and-down {
+      display: none !important;
+    }
+
+    .sm-text {
+      font-size: 12px;
+    }
+
+    .large-text {
+      font-size: 14px;
+    }
+
+    .x-large-text {
+      font-size: 16px;
+    }
+
+    .xx-large-text {
+      font-size: 18px;
+    }
+
+    .xxx-large-text {
+      font-size: 20px;
+    }
+
+    .spacer {
+      height:50px;
+      width: 100%;
+    }
+
+    .small-spacer {
+      height:40px;
+      width: 100%;
+    }
+
+    .x-small-spacer {
+      height:10px;
+      width: 100%;
+    }
+
+    /*Project page media queries*/
+    .project-header {
+    height:30vh !important;
+    background: url('../img/ticketpass-hero.png') no-repeat center;
+    background-size: 100%;
+  }
+
+  /* ABOUT-PAGE STYLES */
+  .about-header {
+    background: url('') no-repeat !important;
+  }
+
+  .about {
+    max-width: 80% !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    padding:0% !important;
+  }
+}
+
+@media only screen and (max-width : 480px){
+
+  .psswrd {
+    width:100%;
+  }
+
+  /*Project page media queries*/
+  div.m4 img {
+    padding:15%;
+  }
+
+  div.m5 p, div.m5 h5 {
+    text-align: center;
+  }
+}
+
+
+/* HOME-PAGE STYLES */
+.bg {
+  height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+}
+
+.hero-home {
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+#home-pic-container{ 
+  position: relative;
+}
+
+#iphone-svg {
+  height: 675px;
+}
+
+div.screen-content {
+  position: absolute;
+/*  width: 285px;
+  height: 508px;
+  top: 12.3%;
+  left: 9%;*/
+
+  width: 286px;
+  height: 505px;
+  top: 11%;
+  left: 8%;
+}
+
+/*Hiding these elements of the JQuery bot*/
+.jsm-bot-info, .jsm-status-navbar, .jsm-messenger-flash, .jsm-chat-progress-indicator {
+  display:none;
+}
+
+.project {
+  display: flex;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.collapsible {
+  border: none;
+  box-shadow: none;
+  margin: none;
+}
+
+.collapsible-body, .collapsible-header {
+  border-bottom: none;
+}
+
+.card {
+  box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+  transition: all 0.2s ease;
+}
+
+.card:hover{
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,.19), 0 6px 3px 0 rgba(0,0,0,.23);
+}
+
+
+/* WORK-PAGE STYLES */
+.work-header {
+  max-width: 100%;
+}
+
+.work-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* PROJECT-PAGE STYLES */
+.project-header {
+  height: 95vh;
+}
+
+.work-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#carousel-next {
+  position: absolute;
+  bottom: 3%;
+  right:3%;
+}
+
+/* ABOUT-PAGE STYLES */
+.about-header {
+  height: 100vh;
+  background: url('../img/about_img.JPG') no-repeat center;
+  background-size: 100%;
+}
+
+.about {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.20);
+  border-radius: 5px;
+  background-color: white;
+  padding:1.5%;
+  position: absolute;
+  right: 10%;
+  max-width:42%;
+}
+
+/* Adjusting the image height on messenger bot on homepage*/
+.jsm-title-hidden {
+  display: none !important;
+}
+.jsm-image {
+  padding-top:80% !important;
+  border-bottom-left-radius: 1.55em !important;
+  border-bottom-right-radius: 1.55em !important;
+}
+
+/* Hiding type a message box on homepage */
+.jsm-input-message {
+  display: none;
+}
+
+/*Adjusting the fontsize of the chat content*/
+.jsm-chat-content {
+  font-size: 1.2em !important;
+}
+
+.jsm-quick-reply-option > a {
+  color: #546de5 !important;
+}
+
+/* fixing the spacing in the quick reply buttons*/
+.jsm-quick-replies-container {
+  display:flex !important;
+  justify-content:space-around;
+}
+
+.jsm-chat-content .jsm-chat-message.jsm-right {
+  background:#546de5 !important;
+  border:1px solid #546de5 !important; 
+}
+
+.jsm-bottom-bar .jsm-quick-replies .jsm-quick-replies-container .jsm-quick-reply-option {
+  border:1px solid #546de5 !important;
+  color: #546de5;
+}
+
+/*adding and customizing  password protection*/
+.psswrd {
+  display:none;
+  width: 50% !important;
+}
+
+.access-link {
+  display:none;
+}
+
+.psswrd, .input-field, .input-field > label  {
+  padding-left:0rem !important;
+  padding-right:0rem !important;
+  left:0 !important;
+}
+
+input[type=password] + label.active {
+  color:#546de5 !important;
+}
+
+input[type=password]:focus {
+  border-bottom: 1px solid #546de5 !important;
+  box-shadow: 0 1px 0 0 #546de5 !important;
+}
+
+/*input[type=password]:focus:not([readonly]) {
+  border-bottom: 1px solid #546de5 !important;
+  box-shadow: 0 1px 0 0 #546de5 !important;
+}*/
+
+input[type=password].invalid, input[type=password]:focus.invalid {
+  border-bottom: 1px solid #f44336 !important;
+  box-shadow: 0 1px 0 0 #f44336 !important;
+}
+

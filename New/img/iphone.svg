@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="767" height="1539" viewBox="0 0 767 1539" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="c" x1="50%" x2="50%" y1="50%" y2="100%">
+      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#FAFBFC" offset="100%"/>
+    </linearGradient>
+    <rect id="a" width="735" height="1507" rx="84.592"/>
+    <filter id="b" width="107.6%" height="103.7%" x="-3.8%" y="-1.3%" filterUnits="objectBoundingBox">
+      <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0" in="shadowBlurOuter1"/>
+    </filter>
+    <filter id="d" width="110.9%" height="105.3%" x="-5.4%" y="-2.1%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="16" in="SourceAlpha" result="shadowBlurInner1"/>
+      <feOffset dy="-16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0" in="shadowInnerInner1"/>
+    </filter>
+    <linearGradient id="f" x1="0%" y1="0%" y2="100%">
+      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#FEFEFE" offset="100%"/>
+    </linearGradient>
+    <rect id="e" width="671" height="1186" x="31" y="148" rx="20"/>
+    <rect id="g" width="663" height="1179" x="35" y="151" rx="20"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(16 8)">
+    <use fill="black" filter="url(#b)" xlink:href="#a"/>
+    <use fill="url(#c)" xlink:href="#a"/>
+    <use fill="black" filter="url(#d)" xlink:href="#a"/>
+    <use fill="url(#f)" xlink:href="#e"/>
+    <rect width="672.5" height="1187.5" x="30.25" y="147.25" stroke="#000000" stroke-opacity=".04" stroke-width="1.5" rx="20"/>
+    <use fill="#FFFFFF" xlink:href="#g"/>
+  </g>
+</svg>
