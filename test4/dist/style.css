@@ -367,7 +367,7 @@ figure.full figcaption {
   text-align: center;
   padding: 10px;
   font-size: 14pt;
-  background: #B0B3B6;
+  background: rgb(203, 205, 207);
 }
 
 .simple img {
@@ -398,9 +398,9 @@ figure.full figcaption {
 .con {
   text-align: center;
   padding: 5pt;
-  border: 1pt solid #B0B3B6;
-  background: #B0B3B6;
-  font-type: "Abril Fatface", serif;
+  border: 1pt solid rgb(203, 205, 207);
+  background: rgb(203, 205, 207);
+  font-style: "Abril Fatface", serif;
 }
 
 .pictures {
@@ -434,7 +434,7 @@ figure.full figcaption {
   margin: 0 .75em 0 1.5em;
 }
 .aside1 li {
-  font-famil: "Source Sans Pro";
+  font-family: "Source Sans Pro";
 }
 
 h4 {
@@ -498,9 +498,9 @@ li {
 }
 
 .final {
-  border: 5pt solid #B0B3B6;
+  border: 5pt solid rgb(203, 205, 207);
   padding-bottom: 10px;
-  background: #B0B3B6;
+  background: rgb(203, 205, 207);
   text-align: center;
 }
 .final figcaption {
@@ -516,7 +516,7 @@ li {
   text-align: center;
   padding: 10px;
   font-size: 12pt;
-  background: #B0B3B6;
+  background: rgb(203, 205, 207);
   background-size: cover;
   border: none;
   border-radius: 0px;
