@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+}
+
+.contain {
+    object-fit: contain;
+}
+
+.tag {
+    font-size: 1.3rem;
+    color: #888;
+    font-weight: normal;
+    margin: 0 0 3em;
+}
+
+.projContainer {
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    margin: 0 0.5em 1em;
+    border: 2px solid #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.projContainer img {
+    transition: 0.3s;
+}
+
+.projContainer:hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.projContainer:hover {
+    border-color: #333;
+}
+
+.projInfoContainer {
+    position: relative;
+    padding: 1em 1em 0;
+    background: rgba(245, 245, 245, 0.95);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    transition: 0.3s;
+    margin-top: 0;
+    text-align: left;
+    border-top: 5px solid #333;
+    font-family: sans-serif;
+}
+
+.projContainer:hover .projInfoContainer {
+    margin-top: -8.5em;
+}
+
+.projCat {
+    color: #57c0de;
+    font-weight: bold;
+    margin-top: 0;
+    font-style: italic;
+}
+
+.projSpec {
+    color: #333;
+}
+
+.projInfoContainer:before {
+    position: absolute;
+    background: #ddd;
+    padding: 0.25em 1em 0.25em 0.5em;
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-size: 1.5rem;
+    transition: 0.3s;
+    right: -1em;
+    z-index: 5;
+    border-radius: 5px 0 0 5px;
+}
+
+.projContainer:hover .projInfoContainer:before {
+    right: 1em;
+}
+
+p.b {
+    white-space: normal;
+    font-size: 38px;
+    font-weight: bold;
+}
